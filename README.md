@@ -1,6 +1,6 @@
 # 📰 News Sentiment Analyzer (ES)
 
-Aplicación **Streamlit** para analizar el sentimiento de comentarios en noticias.
+Aplicación **Streamlit** para analizar el sentimiento de comentarios sobre candidatos presidenciales.
 Usa `transformers` (modelo multilingüe de estrellas) y visualiza resultados con **Plotly**.
 
 ## 🚀 Cómo ejecutar
