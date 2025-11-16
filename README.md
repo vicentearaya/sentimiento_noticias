@@ -3,11 +3,15 @@
 Aplicación **Streamlit** para analizar el sentimiento de comentarios sobre candidatos presidenciales.
 Usa `transformers` (modelo multilingüe de estrellas) y visualiza resultados con **Plotly**.
 
+```bash
+git clone https://github.com/vicentearaya/sentimiento_noticias.git
 ## 🚀 Cómo ejecutar
 
-```bash
 cd news_sentiment_app
-python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
+# Activar entorno virtual (Windows)
+.venv\Scripts\activate
+# Activar entorno virtual (Mac/Linux)
+source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
 ```
