@@ -7,7 +7,9 @@ Usa `transformers` (modelo multilingüe de estrellas) y visualiza resultados con
 git clone https://github.com/vicentearaya/sentimiento_noticias.git
 ## 🚀 Cómo ejecutar
 
-cd news_sentiment_app
+cd sentimiento_noticias
+#Crear el entorno virtual
+python -m venv .venv
 # Activar entorno virtual (Windows)
 .venv\Scripts\activate
 # Activar entorno virtual (Mac/Linux)
