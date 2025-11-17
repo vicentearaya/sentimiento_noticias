@@ -14,6 +14,7 @@ python -m venv .venv
 .venv\Scripts\activate
 # Activar entorno virtual (Mac/Linux)
 source .venv/bin/activate
+
 pip install -r requirements.txt
 streamlit run app.py
 ```

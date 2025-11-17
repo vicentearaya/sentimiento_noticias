@@ -208,6 +208,8 @@ if df is not None and "candidate" in df.columns:
         summary['% Positivo'] = (summary['Positivo'] / summary['Total'] * 100).round(2)
     st.dataframe(summary, use_container_width=True)
 
+    st.download_button("Descargar CSV de resultados", data=df.to_csv(index=False).encode("utf-8"), file_name="sentiment_results.csv", mime="text/csv")
+
 
 st.markdown("---")
 st.caption("📌 Nota: El modelo produce etiquetas de 1 a 5 estrellas. Se mapean a Negativo (1-2), Neutro (3), Positivo (4-5).")
